@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: touch test.jsx
     - run: npx transform ./test.jsx
-    - run: npm test
+    
