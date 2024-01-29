@@ -1,6 +1,6 @@
 {
   "name": "css-module-transformer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool that automates the conversion of your codebase to CSS Modules. It seamlessly transforms imports and class names, ensuring styles are scoped to their corresponding components and improving code maintainability.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
