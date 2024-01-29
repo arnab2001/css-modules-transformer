@@ -1,0 +1,27 @@
+{
+  "name": "css-module-transformer",
+  "version": "1.0.0",
+  "description": "A tool that automates the conversion of your codebase to CSS Modules. It seamlessly transforms imports and class names, ensuring styles are scoped to their corresponding components and improving code maintainability.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "transform": "./bin/transform.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnab2001/css-modules-transformer.git"
+  },
+  "author": "arnab2001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnab2001/css-modules-transformer/issues"
+  },
+  "homepage": "https://github.com/arnab2001/css-modules-transformer#readme",
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
+}
