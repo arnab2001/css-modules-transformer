@@ -21,7 +21,4 @@
     "url": "https://github.com/arnab2001/css-modules-transformer/issues"
   },
   "homepage": "https://github.com/arnab2001/css-modules-transformer#readme",
-  "dependencies": {
-    "@changesets/cli": "^2.27.1"
-  }
 }
