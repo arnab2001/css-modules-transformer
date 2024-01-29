@@ -2,7 +2,7 @@
 [![npm version](https://badge.fury.io/js/css-module-transformer-beta.svg)](https://www.npmjs.com/package/css-module-transformer-beta)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ## Easily transition your codebase to CSS Modules for modular, maintainable styles!
-**Say goodbye to messy, global styles and hello to the power of CSS Modules!** This handy NPM package seamlessly transforms your JavaScript files to utilize scoped styles, making your codebase cleaner, more maintainable, and conflict-free. Managing CSS in larger projects can become cumbersome. Traditional CSS often leads to style bleed, where styles intended for one component affect others unintentionally. Additionally, manually handling CSS imports and class names across multiple files can be tedious and error-prone.
+**Say goodbye to messy, global styles and hello to the power of CSS Modules!** This handy NPM package seamlessly transforms your JavaScript files to utilize scoped styles, making your codebase cleaner, more maintainable, and conflict-free. Managing CSS in larger projects can become cumbersome. Traditional CSS often leads to style bleed, where styles intended for one component affect others unintentionally. Additionally, manually handling CSS imports  and class names across multiple files can be tedious and error-prone.
 ## ✨ What it does:
 - Automatically converts `className="example"` to `className={styles.example}` for static class names.
 - Smartly handles dynamic class names: `className={dynamic-ClassName}` or `className="dynamic-ClassName"` becomes`className={styles[dynamic-ClassName]}` .
